@@ -1,0 +1,343 @@
+<section class="module" id="module-4">
+
+  <!-- ====== SCREEN 1: Tình huống 1 — Đổi trả 48H ====== -->
+  <div class="screen active" id="m4-screen-1">
+    <h2 class="module-title animate-in">Tình huống thực tế — xử lý đúng</h2>
+    <p class="module-subtitle animate-in">Giống trò chơi chọn-đường-đi — mỗi tình huống KH là một ngã rẽ, nắm vững quy định giúp bạn luôn đi đúng hướng.</p>
+
+    <h3 class="animate-in">Tình huống 1: Đổi trả trong 48H (Hàng bán trả lại)</h3>
+    <p class="animate-in">KH muốn đổi SP trong 48H kể từ lúc mua — đây là nghiệp vụ <strong>hàng bán trả lại</strong>, không phải thu đổi thông thường.</p>
+
+    <div class="step-cards">
+      <div class="step-card animate-in">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <strong>Khi nào áp dụng?</strong>
+          <p>KH đổi SP trong 48H vì: lỗi kỹ thuật, đổi mẫu, đổi ni tay, hoặc đổi size.</p>
+        </div>
+      </div>
+      <div class="step-card animate-in">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <strong>Điều kiện bắt buộc</strong>
+          <p>SP còn nguyên hiện trạng + đầy đủ <span class="term" data-definition="Hóa đơn do PNJ phát hành khi bán sản phẩm.">HĐ</span> + chứng từ đi kèm (CS, GKĐ nếu có).</p>
+        </div>
+      </div>
+      <div class="step-card animate-in">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <strong>Đổi cùng chi nhánh</strong>
+          <p>Thực hiện nghiệp vụ <span class="term" data-definition="Nghiệp vụ trên hệ thống SAP/MPos để hoàn trả SP đã bán và xuất SP mới cho KH.">hàng bán trả lại</span> trên hệ thống. Xuất SP mới cho KH.</p>
+        </div>
+      </div>
+      <div class="step-card animate-in">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <strong>Đổi khác chi nhánh</strong>
+          <p>Lập <span class="term" data-definition="Biên bản kiểm tra mặt hàng hóa mang về không có hóa đơn — giấy xác nhận khi KH mang SP từ chi nhánh khác đến.">BKTMHHMVKCHĐ</span> + nhập kho SP cũ. Xuất SP mới cho KH.</p>
+        </div>
+      </div>
+      <div class="step-card animate-in">
+        <div class="step-num">5</div>
+        <div class="step-body">
+          <strong>Ghi chú trên HĐ mới</strong>
+          <p>HĐ mới <strong>bắt buộc</strong> ghi chú "Đã đổi 48H" để truy vết sau này.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout-accent animate-in">
+      <div class="callout-icon">⏰</div>
+      <div class="callout-content">
+        <strong class="callout-title">48H = 2 ngày kể từ ngày mua</strong>
+        <p>Quá 48H thì chuyển sang nghiệp vụ thu đổi thông thường với tỷ lệ theo bảng giá.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCREEN 2: Tình huống 2 — KHDN (Group Chat) ====== -->
+  <div class="screen" id="m4-screen-2">
+    <h3 class="animate-in">Tình huống 2: Khách hàng doanh nghiệp (<span class="term" data-definition="Khách hàng doanh nghiệp — công ty/tổ chức mua SP PNJ, HĐ xuất cho pháp nhân doanh nghiệp.">KHDN</span>)</h3>
+    <p class="animate-in">KH là nhân viên công ty, SP được công ty mua tặng. Cách xử lý phụ thuộc vào việc công ty có xuất lại HĐ không.</p>
+
+    <div class="chat-window" id="chat-module4">
+      <div class="chat-messages">
+        <div class="chat-message" data-msg="0" data-sender="tvv" style="display:none">
+          <div class="chat-avatar" style="background: var(--color-actor-1)">T</div>
+          <div class="chat-bubble">
+            <span class="chat-sender" style="color: var(--color-actor-1)">TVV</span>
+            <p>Anh CHT ơi, có KH là nhân viên công ty ABC, mang nhẫn PNJ đến bán. HĐ gốc xuất cho công ty ABC.</p>
+          </div>
+        </div>
+        <div class="chat-message" data-msg="1" data-sender="cht" style="display:none">
+          <div class="chat-avatar" style="background: var(--color-actor-2)">C</div>
+          <div class="chat-bubble">
+            <span class="chat-sender" style="color: var(--color-actor-2)">CHT</span>
+            <p>OK, kiểm tra xem công ty có xuất lại HĐ cho PNJ không?</p>
+          </div>
+        </div>
+        <div class="chat-message" data-msg="2" data-sender="tvv" style="display:none">
+          <div class="chat-avatar" style="background: var(--color-actor-1)">T</div>
+          <div class="chat-bubble">
+            <span class="chat-sender" style="color: var(--color-actor-1)">TVV</span>
+            <p>Công ty không xuất lại được HĐ. Và cũng không có giấy cho/biếu/tặng.</p>
+          </div>
+        </div>
+        <div class="chat-message" data-msg="3" data-sender="cht" style="display:none">
+          <div class="chat-avatar" style="background: var(--color-actor-2)">C</div>
+          <div class="chat-bubble">
+            <span class="chat-sender" style="color: var(--color-actor-2)">CHT</span>
+            <p>Kiểm tra ngày HĐ gốc. Trước hay sau 23/7/2023?</p>
+          </div>
+        </div>
+        <div class="chat-message" data-msg="4" data-sender="tvv" style="display:none">
+          <div class="chat-avatar" style="background: var(--color-actor-1)">T</div>
+          <div class="chat-bubble">
+            <span class="chat-sender" style="color: var(--color-actor-1)">TVV</span>
+            <p>HĐ ngày 15/03/2024 ạ.</p>
+          </div>
+        </div>
+        <div class="chat-message" data-msg="5" data-sender="cht" style="display:none">
+          <div class="chat-avatar" style="background: var(--color-actor-2)">C</div>
+          <div class="chat-bubble">
+            <span class="chat-sender" style="color: var(--color-actor-2)">CHT</span>
+            <p>Vậy sau 23/7/2023 — thu theo trường hợp hàng không có HĐ. Nhớ kiểm tra SP có đúng PNJ kinh doanh không nhé.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-typing" style="display:none">
+        <div class="chat-avatar" id="chat-module4-typing-avatar">?</div>
+        <div class="chat-typing-dots">
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+        </div>
+      </div>
+
+      <div class="chat-controls">
+        <button class="btn chat-next-btn">Tin tiếp theo</button>
+        <button class="btn chat-all-btn">Xem tất cả</button>
+        <button class="btn chat-reset-btn">Xem lại</button>
+        <span class="chat-progress"></span>
+      </div>
+    </div>
+
+    <div class="pattern-cards">
+      <div class="pattern-card animate-in" style="border-top: 3px solid var(--color-actor-1)">
+        <div class="pattern-icon" style="background: var(--color-actor-1)">1️⃣</div>
+        <h4 class="pattern-title">DN xuất lại HĐ cho PNJ</h4>
+        <p class="pattern-desc">Thu đổi bình thường theo HĐ gốc. KH DN đứng tên trên bảng kê.</p>
+      </div>
+      <div class="pattern-card animate-in" style="border-top: 3px solid var(--color-actor-2)">
+        <div class="pattern-icon" style="background: var(--color-actor-2)">2️⃣</div>
+        <h4 class="pattern-title">DN cho/biếu/tặng cá nhân</h4>
+        <p class="pattern-desc">Cần giấy cho/biếu/tặng + CCCD người nhận. Bảng kê đứng tên cá nhân.</p>
+      </div>
+      <div class="pattern-card animate-in" style="border-top: 3px solid var(--color-actor-3)">
+        <div class="pattern-icon" style="background: var(--color-actor-3)">3️⃣</div>
+        <h4 class="pattern-title">DN không xuất được HĐ</h4>
+        <p class="pattern-desc">HĐ trước 23/7/2023 → thu theo KH không chính chủ. HĐ sau 23/7/2023 → thu theo hàng không có HĐ.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCREEN 3: Tình huống 3 — QTST ====== -->
+  <div class="screen" id="m4-screen-3">
+    <h3 class="animate-in">Tình huống 3: Quà tặng sưu tầm (<span class="term" data-definition="Quà tặng sưu tầm — nhóm SP đặc biệt gồm vàng mini, blindbox, tranh/tượng nghệ thuật. Có chính sách thu đổi riêng theo PL_A14.">QTST</span>)</h3>
+    <p class="animate-in">QTST là nhóm SP đặc biệt, có chính sách thu đổi riêng — cần nhận biết đúng để áp dụng đúng.</p>
+
+    <div class="callout callout-info animate-in">
+      <div class="callout-icon">🎁</div>
+      <div class="callout-content">
+        <strong class="callout-title">QTST bao gồm những SP nào?</strong>
+        <p>Vàng Mini, Blindbox, Ất Tỵ Tất Thành, Tranh/Tượng Arta, SP Disney/Sanrio và các dòng sưu tầm khác.</p>
+      </div>
+    </div>
+
+    <div class="icon-rows">
+      <div class="icon-row animate-in">
+        <div class="icon-circle" style="background: var(--color-actor-1)">🔍</div>
+        <div>
+          <strong>Cách nhận biết QTST trên hệ thống</strong>
+          <p>Kiểm tra <span class="term" data-definition="Material Group là mã nhóm vật liệu trên SAP. Ký tự thứ 4 và 5 trong Material Group cho biết loại SP.">Material Group_LV4</span>: ký tự thứ 4 &amp; 5 = "ST" → SP thuộc nhóm Sưu Tầm.</p>
+        </div>
+      </div>
+      <div class="icon-row animate-in">
+        <div class="icon-circle" style="background: var(--color-actor-2)">📑</div>
+        <div>
+          <strong>Chính sách áp dụng</strong>
+          <p>Thu đổi theo <span class="term" data-definition="Phụ lục A14 — phụ lục quy định tỷ lệ thu đổi riêng cho nhóm Quà tặng sưu tầm.">PL_A14</span>. Tỷ lệ và điều kiện khác với trang sức thông thường.</p>
+        </div>
+      </div>
+      <div class="icon-row animate-in">
+        <div class="icon-circle" style="background: var(--color-actor-3)">⚠️</div>
+        <div>
+          <strong>Lưu ý quan trọng</strong>
+          <p>Không áp dụng tỷ lệ thu đổi của vàng thường cho QTST. Luôn kiểm tra Material Group trước!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCREEN 4: Tình huống 4 — SP không nguyên hiện trạng ====== -->
+  <div class="screen" id="m4-screen-4">
+    <h3 class="animate-in">Tình huống 4: SP không nguyên hiện trạng</h3>
+    <p class="animate-in">KH mang SP bị biến dạng, mất chi tiết, hoặc trọng lượng chênh nhiều. Cách xử lý?</p>
+
+    <div class="pattern-cards">
+      <div class="pattern-card animate-in" style="border-top: 3px solid #E74C3C">
+        <div class="pattern-icon" style="background: #E74C3C">⚡</div>
+        <h4 class="pattern-title">Biến dạng / mất chi tiết</h4>
+        <p class="pattern-desc">SP bị méo, gãy, mất hạt đá phụ, mất chi tiết trang trí → giảm tỷ lệ thu đổi hoặc chỉ thu theo giá <span class="term" data-definition="Nguyên liệu — giá trị vàng/bạc/bạch kim trong SP, không tính công chế tác và giá trị đá.">NL</span>.</p>
+      </div>
+      <div class="pattern-card animate-in" style="border-top: 3px solid #E67E22">
+        <div class="pattern-icon" style="background: #E67E22">⚖️</div>
+        <h4 class="pattern-title">Trọng lượng chênh quá mức</h4>
+        <p class="pattern-desc">Chênh quá ± 0.006 chỉ so với HĐ → không đạt. Cần báo CHT và ghi nhận vào biên bản.</p>
+      </div>
+      <div class="pattern-card animate-in" style="border-top: 3px solid #9B59B6">
+        <div class="pattern-icon" style="background: #9B59B6">🔎</div>
+        <h4 class="pattern-title">Dấu đóng bị tẩy xóa / mờ</h4>
+        <p class="pattern-desc">Mộc tuổi vàng, mộc nhận dạng PNJ bị mờ/mất → cần gửi P.TL&amp;ĐBCL xác minh trước khi thu.</p>
+      </div>
+    </div>
+
+    <div class="callout callout-warning animate-in">
+      <div class="callout-icon">⚠️</div>
+      <div class="callout-content">
+        <strong class="callout-title">Nguyên tắc vàng: khi nghi ngờ → báo CHT</strong>
+        <p>TVV kiểm tra sơ bộ. Bất kỳ điều gì bất thường, luôn báo CHT trước khi quyết định thu hay không.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCREEN 5: Scenario Quiz ====== -->
+  <div class="screen" id="m4-screen-5">
+    <h3 class="animate-in">Kiểm tra tình huống — Bạn xử lý đúng chưa?</h3>
+    <p class="animate-in">4 tình huống thực tế. Chọn cách xử lý phù hợp nhất!</p>
+
+    <div class="quiz-container" id="quiz-module4">
+
+      <!-- Q1 -->
+      <div class="scenario-block animate-in">
+        <div class="scenario-context">
+          <span class="scenario-label">Tình huống</span>
+          <p>KH mua nhẫn ECZ ngày 10/02/2026, đến đổi ngày 12/02/2026 (trong 48H) vì không vừa ni tay. SP còn nguyên hiện trạng, có đầy đủ HĐ và chứng từ.</p>
+        </div>
+        <div class="quiz-question-block"
+             data-correct="option-4a"
+             data-explanation-right="Chính xác! Trong 48H + SP nguyên hiện trạng → áp dụng nghiệp vụ hàng bán trả lại, không phải thu đổi thông thường."
+             data-explanation-wrong="Chưa đúng. Đây là trường hợp trong 48H, SP còn nguyên → xử lý theo hàng bán trả lại (đổi 48H), không áp dụng tỷ lệ thu đổi.">
+          <h3 class="quiz-question">Xử lý theo cách nào?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="option-4a" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Hàng bán trả lại (đổi 48H), không phải thu đổi thông thường</span>
+            </button>
+            <button class="quiz-option" data-value="option-4b" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Thu đổi thông thường theo tỷ lệ ECZ</span>
+            </button>
+            <button class="quiz-option" data-value="option-4c" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Từ chối vì ECZ không được đổi</span>
+            </button>
+          </div>
+          <div class="quiz-feedback"></div>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="scenario-block animate-in">
+        <div class="scenario-context">
+          <span class="scenario-label">Tình huống</span>
+          <p>KH mang dây chuyền vàng 24K đến bán. Không có HĐ, nhưng SP có mộc PNJ rõ ràng trên sản phẩm.</p>
+        </div>
+        <div class="quiz-question-block"
+             data-correct="option-5b"
+             data-explanation-right="Đúng! SP có mộc PNJ chứng minh là hàng PNJ kinh doanh. Không có HĐ → thu theo trường hợp hàng không có HĐ, giá tính theo nguyên liệu."
+             data-explanation-wrong="Chưa đúng. Dù không có HĐ, SP có mộc PNJ vẫn thu được — áp dụng trường hợp hàng không có HĐ, thu theo giá nguyên liệu.">
+          <h3 class="quiz-question">Thu được không?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="option-5a" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Không thu — bắt buộc phải có HĐ</span>
+            </button>
+            <button class="quiz-option" data-value="option-5b" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Thu được, theo trường hợp hàng không có HĐ, thu theo giá NL</span>
+            </button>
+            <button class="quiz-option" data-value="option-5c" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Thu theo giá bán lẻ bình thường</span>
+            </button>
+          </div>
+          <div class="quiz-feedback"></div>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="scenario-block animate-in">
+        <div class="scenario-context">
+          <span class="scenario-label">Tình huống</span>
+          <p>KH là cá nhân, được công ty ABC biếu tặng nhẫn PNJ. KH có giấy biếu tặng + CCCD. HĐ gốc xuất cho công ty ABC.</p>
+        </div>
+        <div class="quiz-question-block"
+             data-correct="option-6b"
+             data-explanation-right="Chính xác! Có giấy biếu tặng + CCCD → thuộc trường hợp KHDN cho/biếu/tặng cá nhân. Bảng kê đứng tên KH cá nhân."
+             data-explanation-wrong="Chưa đúng. Đây là trường hợp DN cho/biếu/tặng cá nhân — có giấy biếu tặng hợp lệ, bảng kê sẽ đứng tên KH cá nhân (người được tặng).">
+          <h3 class="quiz-question">Thu mua thế nào?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="option-6a" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Thu theo tên công ty ABC trên bảng kê</span>
+            </button>
+            <button class="quiz-option" data-value="option-6b" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Thu theo trường hợp KHDN cho/biếu/tặng cá nhân, bảng kê đứng tên KH cá nhân</span>
+            </button>
+            <button class="quiz-option" data-value="option-6c" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Từ chối vì HĐ không đúng tên KH</span>
+            </button>
+          </div>
+          <div class="quiz-feedback"></div>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="scenario-block animate-in">
+        <div class="scenario-context">
+          <span class="scenario-label">Tình huống</span>
+          <p>KH mang SP "Blindbox Mã Tiến Đắc Lộ" đến thu đổi. TVV không chắc đây có phải Quà tặng sưu tầm không.</p>
+        </div>
+        <div class="quiz-question-block"
+             data-correct="option-7a"
+             data-explanation-right="Đúng rồi! Blindbox thuộc nhóm QTST. Kiểm tra Material Group_LV4 có ký tự 4&amp;5 = ST để xác nhận, và áp dụng PL_A14."
+             data-explanation-wrong="Chưa đúng. Blindbox là một trong các dòng SP thuộc nhóm Quà tặng sưu tầm (QTST), áp dụng chính sách theo PL_A14.">
+          <h3 class="quiz-question">Đây có phải Quà tặng sưu tầm không?</h3>
+          <div class="quiz-options">
+            <button class="quiz-option" data-value="option-7a" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Có, thuộc nhóm QTST — áp dụng PL_A14</span>
+            </button>
+            <button class="quiz-option" data-value="option-7b" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Không, đây là trang sức thông thường</span>
+            </button>
+            <button class="quiz-option" data-value="option-7c" onclick="selectOption(this)">
+              <div class="quiz-option-radio"></div>
+              <span>Cần hỏi P.TL&amp;ĐBCL mới biết</span>
+            </button>
+          </div>
+          <div class="quiz-feedback"></div>
+        </div>
+      </div>
+
+      <button class="quiz-check-btn" onclick="checkQuiz('quiz-module4')">Kiểm tra đáp án</button>
+      <button class="quiz-reset-btn" onclick="resetQuiz('quiz-module4')">Làm lại</button>
+    </div>
+  </div>
+
+</section>
